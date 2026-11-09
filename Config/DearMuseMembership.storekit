@@ -1,0 +1,134 @@
+{
+  "identifier" : "DearMuseMembership",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "XN42ZWWAT9",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "DearMuseMembership",
+      "localizations" : [
+        {
+          "description" : "Unlock Magpie polish, midnight mirrors, and Max soul tools.",
+          "displayName" : "Dear Muse Membership",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Dear Muse Membership",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DMMaxMonthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Everything Pro plus coupled Muse workshop.",
+              "displayName" : "Dear Muse Max",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.s2.dearmuse.max.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Max Monthly",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "DMProMonthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Midnight mirror export and Magpie polish.",
+              "displayName" : "Dear Muse Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.s2.dearmuse.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "79.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DMMaxYearly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Max yearly.",
+              "displayName" : "Dear Muse Max Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.s2.dearmuse.max.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Max Yearly",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "39.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "DMProYearly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Pro yearly.",
+              "displayName" : "Dear Muse Pro Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.s2.dearmuse.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pro Yearly",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

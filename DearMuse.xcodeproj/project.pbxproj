@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07493868420DEDE361A2CFF5 /* RainbowBridgeMQTTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91299193A6ED5E18AB288243 /* RainbowBridgeMQTTClient.swift */; };
+		07B5BB05BD9712BA07313121 /* DearMuseLaunchPreludeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8951F267A133A4FB069A24BB /* DearMuseLaunchPreludeView.swift */; };
+		1BC2E4FF0CC2ACFBFC906F3F /* MagpieBridgeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D7DF706233A6A862DFFAC /* MagpieBridgeMatcher.swift */; };
+		269C88B8AA8983CB890026B5 /* MagpieBridgeSundayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FCDC191AEF26558C8135F /* MagpieBridgeSundayView.swift */; };
+		2ACAC46150AD2B8C85A4FCF3 /* S2RBMQTTRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDC14472016B1146DB2C79 /* S2RBMQTTRouter.swift */; };
+		324665E5B63CE9437CFF350F /* MQTTPacketCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CDD0739C1DCF23B9474B0 /* MQTTPacketCodec.swift */; };
+		3761FE53B60E3AA999B52C5E /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA1796E4E565652F823E7 /* L10n.swift */; };
+		4282823AE35F8EA6F8237718 /* SoulTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D4445131E256CBEBE40B8 /* SoulTheme.swift */; };
+		4A58EAC56DF40D8EB3DAADF0 /* CoreEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6997A0DF172A7EBD90C8E40 /* CoreEngineTests.swift */; };
+		59249A802F5AE7D92A62FE53 /* MuseMirrorMemoryEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE25E43EEF1B5303101032E /* MuseMirrorMemoryEngine.swift */; };
+		5C265237306CEBD00BF165E0 /* SecretCrushComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1BC22825A4CFABA097E64 /* SecretCrushComposeView.swift */; };
+		5EC7D2415BE654B946DB25C8 /* MuseMainChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DED6B27B0EC6F849AD62 /* MuseMainChatView.swift */; };
+		631FD3A69A26247178928CBC /* CoupledMirrorTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4552F9D4CD013D194CC4AE9 /* CoupledMirrorTimelineView.swift */; };
+		70B8C520E3B245B5F457B14A /* SoulFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC59E3441A10089E51DCE974 /* SoulFlowView.swift */; };
+		7AFE2C9A5E474676E1A3A1DC /* SecretCrushAndBottleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E951B247E5198BA35F6C008 /* SecretCrushAndBottleEngine.swift */; };
+		8D44E40938F3A7A35B9C8562 /* CalendarKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5280000F8BF6DCF0BE7CB0 /* CalendarKeys.swift */; };
+		936E49DD7531806B0D9A4747 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D41D415C38FAFADAFCA08A /* AppModel.swift */; };
+		A13066271CB972AE86D97831 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0A0BB85FD0E23E15B464F /* StoreKitManager.swift */; };
+		A5B483DCA4480DFACDF9AA10 /* LocalSandboxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2BC4BC1620B3A46B99C23 /* LocalSandboxStore.swift */; };
+		B7155FD9C0A6F5BD65A71530 /* MQTTPacketCodecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23359D9E54EB2C2806CC4E /* MQTTPacketCodecTests.swift */; };
+		C85345C73CE00F944F47F95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161FD8BF3D53F1D98BC8DA7B /* Assets.xcassets */; };
+		D4770761C45F6352F13EFF8C /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D1D67FC71E0720F0CA70 /* RootTabView.swift */; };
+		D7F908DEC3130766F9A358EA /* DriftBottleBeachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6816F40BC22BA5DA6ABFB /* DriftBottleBeachView.swift */; };
+		DA636BE6683368A63915756F /* AppGroupSharedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D04AE3C41BD78BACD7FBB /* AppGroupSharedContainer.swift */; };
+		EF3EC444EEBB8685509BE594 /* DearMuseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48852CEB0455AFCEE3939F2 /* DearMuseApp.swift */; };
+		F9CEA9B6E7029F0B02DC6D63 /* OnDeviceSafetyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB17AEC05D3D2FF9FB9386 /* OnDeviceSafetyFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA0200D5017F64E17F960B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 126FE0946804A014013E3679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5FD85DB0465412371C5B2B;
+			remoteInfo = DearMuse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D6816F40BC22BA5DA6ABFB /* DriftBottleBeachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriftBottleBeachView.swift; sourceTree = "<group>"; };
+		161FD8BF3D53F1D98BC8DA7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E951B247E5198BA35F6C008 /* SecretCrushAndBottleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretCrushAndBottleEngine.swift; sourceTree = "<group>"; };
+		4D50D1D67FC71E0720F0CA70 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		59D41D415C38FAFADAFCA08A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		615FCDC191AEF26558C8135F /* MagpieBridgeSundayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagpieBridgeSundayView.swift; sourceTree = "<group>"; };
+		702D4445131E256CBEBE40B8 /* SoulTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulTheme.swift; sourceTree = "<group>"; };
+		79E007FB24AEB8564A0435C7 /* DearMuseTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DearMuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8852DED6B27B0EC6F849AD62 /* MuseMainChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseMainChatView.swift; sourceTree = "<group>"; };
+		8951F267A133A4FB069A24BB /* DearMuseLaunchPreludeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DearMuseLaunchPreludeView.swift; sourceTree = "<group>"; };
+		91299193A6ED5E18AB288243 /* RainbowBridgeMQTTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowBridgeMQTTClient.swift; sourceTree = "<group>"; };
+		9E3D04AE3C41BD78BACD7FBB /* AppGroupSharedContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupSharedContainer.swift; sourceTree = "<group>"; };
+		A48852CEB0455AFCEE3939F2 /* DearMuseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DearMuseApp.swift; sourceTree = "<group>"; };
+		A82CDD0739C1DCF23B9474B0 /* MQTTPacketCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTPacketCodec.swift; sourceTree = "<group>"; };
+		B84FA1796E4E565652F823E7 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		C4552F9D4CD013D194CC4AE9 /* CoupledMirrorTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupledMirrorTimelineView.swift; sourceTree = "<group>"; };
+		CB9D7DF706233A6A862DFFAC /* MagpieBridgeMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagpieBridgeMatcher.swift; sourceTree = "<group>"; };
+		CCE25E43EEF1B5303101032E /* MuseMirrorMemoryEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseMirrorMemoryEngine.swift; sourceTree = "<group>"; };
+		CE23359D9E54EB2C2806CC4E /* MQTTPacketCodecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTPacketCodecTests.swift; sourceTree = "<group>"; };
+		CEABB5A36B2D028BD3D1D40C /* DearMuse.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DearMuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6997A0DF172A7EBD90C8E40 /* CoreEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreEngineTests.swift; sourceTree = "<group>"; };
+		DCF1BC22825A4CFABA097E64 /* SecretCrushComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretCrushComposeView.swift; sourceTree = "<group>"; };
+		DFC2BC4BC1620B3A46B99C23 /* LocalSandboxStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSandboxStore.swift; sourceTree = "<group>"; };
+		E3FB17AEC05D3D2FF9FB9386 /* OnDeviceSafetyFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceSafetyFilter.swift; sourceTree = "<group>"; };
+		EB5280000F8BF6DCF0BE7CB0 /* CalendarKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarKeys.swift; sourceTree = "<group>"; };
+		EBD0A0BB85FD0E23E15B464F /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		EC59E3441A10089E51DCE974 /* SoulFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulFlowView.swift; sourceTree = "<group>"; };
+		FBFDC14472016B1146DB2C79 /* S2RBMQTTRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2RBMQTTRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		026B77DC36D40CAF2F185DE7 /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				C4552F9D4CD013D194CC4AE9 /* CoupledMirrorTimelineView.swift */,
+			);
+			path = Memories;
+			sourceTree = "<group>";
+		};
+		17EE9ACB84C8898FC0FA8DF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA1FADCC4F7E76186224D1 /* Components */,
+				820B326C51A29820FA23CEF8 /* Launch */,
+				026B77DC36D40CAF2F185DE7 /* Memories */,
+				AD8FA6C54A143D5BB48250EF /* MuseChat */,
+				A5A781EC7E4C81460E402AE5 /* RomanceHub */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2002EF47D7A174787B74F176 /* MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				A82CDD0739C1DCF23B9474B0 /* MQTTPacketCodec.swift */,
+				91299193A6ED5E18AB288243 /* RainbowBridgeMQTTClient.swift */,
+			);
+			path = MQTT;
+			sourceTree = "<group>";
+		};
+		42E12ACC925C80EC53C4F73C /* DearMuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6997A0DF172A7EBD90C8E40 /* CoreEngineTests.swift */,
+				CE23359D9E54EB2C2806CC4E /* MQTTPacketCodecTests.swift */,
+			);
+			path = DearMuseTests;
+			sourceTree = "<group>";
+		};
+		4B216A6F710A4A86973BA434 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				161FD8BF3D53F1D98BC8DA7B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D7B911DFA833DA4EF99CF1F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EB5280000F8BF6DCF0BE7CB0 /* CalendarKeys.swift */,
+				B84FA1796E4E565652F823E7 /* L10n.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		820B326C51A29820FA23CEF8 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				8951F267A133A4FB069A24BB /* DearMuseLaunchPreludeView.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		9B5D2792260333483EBA3DF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9E3D04AE3C41BD78BACD7FBB /* AppGroupSharedContainer.swift */,
+				59D41D415C38FAFADAFCA08A /* AppModel.swift */,
+				A48852CEB0455AFCEE3939F2 /* DearMuseApp.swift */,
+				4D50D1D67FC71E0720F0CA70 /* RootTabView.swift */,
+				702D4445131E256CBEBE40B8 /* SoulTheme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A380A3B7D42D6CE1D9C73536 /* CoreEngines */ = {
+			isa = PBXGroup;
+			children = (
+				CB9D7DF706233A6A862DFFAC /* MagpieBridgeMatcher.swift */,
+				CCE25E43EEF1B5303101032E /* MuseMirrorMemoryEngine.swift */,
+				FBFDC14472016B1146DB2C79 /* S2RBMQTTRouter.swift */,
+				3E951B247E5198BA35F6C008 /* SecretCrushAndBottleEngine.swift */,
+			);
+			path = CoreEngines;
+			sourceTree = "<group>";
+		};
+		A4E1015EF197DA480C72CFE2 /* Safety */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB17AEC05D3D2FF9FB9386 /* OnDeviceSafetyFilter.swift */,
+			);
+			path = Safety;
+			sourceTree = "<group>";
+		};
+		A5A781EC7E4C81460E402AE5 /* RomanceHub */ = {
+			isa = PBXGroup;
+			children = (
+				06D6816F40BC22BA5DA6ABFB /* DriftBottleBeachView.swift */,
+				615FCDC191AEF26558C8135F /* MagpieBridgeSundayView.swift */,
+				DCF1BC22825A4CFABA097E64 /* SecretCrushComposeView.swift */,
+			);
+			path = RomanceHub;
+			sourceTree = "<group>";
+		};
+		AD8FA6C54A143D5BB48250EF /* MuseChat */ = {
+			isa = PBXGroup;
+			children = (
+				8852DED6B27B0EC6F849AD62 /* MuseMainChatView.swift */,
+			);
+			path = MuseChat;
+			sourceTree = "<group>";
+		};
+		D1338C6919217B1B3C46325E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEABB5A36B2D028BD3D1D40C /* DearMuse.app */,
+				79E007FB24AEB8564A0435C7 /* DearMuseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1BF191A10A8996364E0C9C9 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				EBD0A0BB85FD0E23E15B464F /* StoreKitManager.swift */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+		D9C743F6A1D8CF2533FA78C4 = {
+			isa = PBXGroup;
+			children = (
+				9B5D2792260333483EBA3DF5 /* App */,
+				F88360629C3B8A9F30786A34 /* Core */,
+				A380A3B7D42D6CE1D9C73536 /* CoreEngines */,
+				42E12ACC925C80EC53C4F73C /* DearMuseTests */,
+				4B216A6F710A4A86973BA434 /* Resources */,
+				17EE9ACB84C8898FC0FA8DF8 /* Views */,
+				D1338C6919217B1B3C46325E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7DA1FADCC4F7E76186224D1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E3441A10089E51DCE974 /* SoulFlowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB6845B23CE4B5B3AF3FF8A0 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2BC4BC1620B3A46B99C23 /* LocalSandboxStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F88360629C3B8A9F30786A34 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2002EF47D7A174787B74F176 /* MQTT */,
+				EB6845B23CE4B5B3AF3FF8A0 /* Persistence */,
+				A4E1015EF197DA480C72CFE2 /* Safety */,
+				D1BF191A10A8996364E0C9C9 /* StoreKit */,
+				5D7B911DFA833DA4EF99CF1F /* Support */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5FD85DB0465412371C5B2B /* DearMuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB776DA605263F62B3771B91 /* Build configuration list for PBXNativeTarget "DearMuse" */;
+			buildPhases = (
+				17CA96F0E73FF5C2F1B5DE5C /* Sources */,
+				CC3A073DACB6CDE6436E994C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DearMuse;
+			packageProductDependencies = (
+			);
+			productName = DearMuse;
+			productReference = CEABB5A36B2D028BD3D1D40C /* DearMuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E024A48B43F57A4678DF095 /* DearMuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB612C23569DE5ACC7735C /* Build configuration list for PBXNativeTarget "DearMuseTests" */;
+			buildPhases = (
+				9D2D333A6C1F41F4569E5FD4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53190861CF18F51CECFBED2A /* PBXTargetDependency */,
+			);
+			name = DearMuseTests;
+			packageProductDependencies = (
+			);
+			productName = DearMuseTests;
+			productReference = 79E007FB24AEB8564A0435C7 /* DearMuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126FE0946804A014013E3679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1D5FD85DB0465412371C5B2B = {
+						DevelopmentTeam = XN42ZWWAT9;
+						ProvisioningStyle = Automatic;
+					};
+					3E024A48B43F57A4678DF095 = {
+						DevelopmentTeam = XN42ZWWAT9;
+					};
+				};
+			};
+			buildConfigurationList = 02B732E162D704329E815CAB /* Build configuration list for PBXProject "DearMuse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D9C743F6A1D8CF2533FA78C4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D1338C6919217B1B3C46325E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5FD85DB0465412371C5B2B /* DearMuse */,
+				3E024A48B43F57A4678DF095 /* DearMuseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3A073DACB6CDE6436E994C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85345C73CE00F944F47F95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17CA96F0E73FF5C2F1B5DE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA636BE6683368A63915756F /* AppGroupSharedContainer.swift in Sources */,
+				936E49DD7531806B0D9A4747 /* AppModel.swift in Sources */,
+				8D44E40938F3A7A35B9C8562 /* CalendarKeys.swift in Sources */,
+				631FD3A69A26247178928CBC /* CoupledMirrorTimelineView.swift in Sources */,
+				EF3EC444EEBB8685509BE594 /* DearMuseApp.swift in Sources */,
+				07B5BB05BD9712BA07313121 /* DearMuseLaunchPreludeView.swift in Sources */,
+				D7F908DEC3130766F9A358EA /* DriftBottleBeachView.swift in Sources */,
+				3761FE53B60E3AA999B52C5E /* L10n.swift in Sources */,
+				A5B483DCA4480DFACDF9AA10 /* LocalSandboxStore.swift in Sources */,
+				324665E5B63CE9437CFF350F /* MQTTPacketCodec.swift in Sources */,
+				1BC2E4FF0CC2ACFBFC906F3F /* MagpieBridgeMatcher.swift in Sources */,
+				269C88B8AA8983CB890026B5 /* MagpieBridgeSundayView.swift in Sources */,
+				5EC7D2415BE654B946DB25C8 /* MuseMainChatView.swift in Sources */,
+				59249A802F5AE7D92A62FE53 /* MuseMirrorMemoryEngine.swift in Sources */,
+				F9CEA9B6E7029F0B02DC6D63 /* OnDeviceSafetyFilter.swift in Sources */,
+				07493868420DEDE361A2CFF5 /* RainbowBridgeMQTTClient.swift in Sources */,
+				D4770761C45F6352F13EFF8C /* RootTabView.swift in Sources */,
+				2ACAC46150AD2B8C85A4FCF3 /* S2RBMQTTRouter.swift in Sources */,
+				7AFE2C9A5E474676E1A3A1DC /* SecretCrushAndBottleEngine.swift in Sources */,
+				5C265237306CEBD00BF165E0 /* SecretCrushComposeView.swift in Sources */,
+				70B8C520E3B245B5F457B14A /* SoulFlowView.swift in Sources */,
+				4282823AE35F8EA6F8237718 /* SoulTheme.swift in Sources */,
+				A13066271CB972AE86D97831 /* StoreKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2D333A6C1F41F4569E5FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A58EAC56DF40D8EB3DAADF0 /* CoreEngineTests.swift in Sources */,
+				B7155FD9C0A6F5BD65A71530 /* MQTTPacketCodecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53190861CF18F51CECFBED2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5FD85DB0465412371C5B2B /* DearMuse */;
+			targetProxy = AEA0200D5017F64E17F960B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A9A2D9297695E824296E721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XN42ZWWAT9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		24D0CA43127E91C0216D5CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/DearMuse.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dear Muse";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = LaunchBackground;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.s2.dearmuse;
+				PRODUCT_NAME = DearMuse;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		502E151ED24F630EE271C809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.s2.dearmuse.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DearMuse.app/DearMuse";
+			};
+			name = Release;
+		};
+		7210DEF5C7DD3400F8903A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/DearMuse.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dear Muse";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = LaunchBackground;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.s2.dearmuse;
+				PRODUCT_NAME = DearMuse;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FAB0BE7C0C13CC6546049121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.s2.dearmuse.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DearMuse.app/DearMuse";
+			};
+			name = Debug;
+		};
+		FB16682E2EF5BB2A3B330E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XN42ZWWAT9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B732E162D704329E815CAB /* Build configuration list for PBXProject "DearMuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9A2D9297695E824296E721 /* Debug */,
+				FB16682E2EF5BB2A3B330E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99FB612C23569DE5ACC7735C /* Build configuration list for PBXNativeTarget "DearMuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0BE7C0C13CC6546049121 /* Debug */,
+				502E151ED24F630EE271C809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB776DA605263F62B3771B91 /* Build configuration list for PBXNativeTarget "DearMuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D0CA43127E91C0216D5CA9 /* Debug */,
+				7210DEF5C7DD3400F8903A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 126FE0946804A014013E3679 /* Project object */;
+}
